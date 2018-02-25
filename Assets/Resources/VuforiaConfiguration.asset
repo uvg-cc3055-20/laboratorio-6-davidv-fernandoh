@@ -8,12 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: ARoa3Zj/////AAAAmRZEI9cW3E0RpurIM9SsC4N2ky1u9cO5ifD7xuVxBDOkLibZipCfy18ep88lpgGTDUCJ8oJDaFFJ7Xit/VO+hhhQxdF9twcQHbopDqtp0qf/8UQ0jv2rPsMOV+l7B8P6BnSRGisawmwA1v2Qdba2Q+6vY6elX3JP/nEWUyXHjqT8PFa7bPoNGhH8FtAU9pqlZYQUFOoPAZuUfaCHHxaPPw1WNBAIvUMVwOkxHzmLc2zge7OE27bbjsYdv2zM7uia/z66Bi9Wvq4GtqaXNS///A+4toJ3kigqh234PLcPqs994FzaIoq7V7DQJX7vhEo+wUKPpt0/vHvuQXs+sq9ppdmPO1aN56Vty/wkaThXbyNb
-    ufoLicenseKey: QVlFNTZxYi8vLy8vQUFBQUtQQktYZXByWTBOd3VLSUJUcStYa3FoV2RRTUJkV28wMDU4S0lhZnBJOTNGQTFyTW9DUHBsclZmOWtKWnZVL1F0bmdZNEI1TGhRdERmMEdlWmJSU2pKUW9sSEFGZlVxanI1ZU1seFFMSmlKa05hK2tMYnlpZnNLZ1NIQU4zLzBSV3hZNXc5V1UvTjNCS2dQckZ4TTZyOGxWK2ZSdGxsYk9tR0g4NTliV25JeGpzbjZMOWxhUmsyNWhqOHNnNkNLc015dythNTVyOFlSZDN0WXczc3VZUUl2U2YxUGtZUFRrMUN1NVZpbm53NmlBT1lqMUZ5K1k2Y0FLOXBGY1FZMmtKWWorWW9tRVhjMDFoTi9nV3FsRjB0U1pGZXRLdmpTVmFyNnBkMzBYMGRDemF6YWh0c284aFJmbEFWMUhVWVFOWDJFZlF3ajljMW5wUXFVZXFkcHA4TlFvSTJnZXF3a1VJTGFRY2o3OHNkTFo=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVkrUUdoYi8vLy8vQUFBQUtPK09Gd3c2K0VWemx6U2RIM2ZlQ3BzMm1vajFvNHNINzBmNXpVRUEyUDFpYmIrVWRScDZTMXdZNjNlSk5UZXdtdGIxSzBRdW9tSmROYmxYeVBWTkpBMzNPZThOV1Ftc1dqUXk2U3FaQy9pKzlHNG55bU9WeGdUM242ZVpEMXhVQkpWbWV6MU1aWG1MdTZmUkYwbUk3VzBNbHB3czMwQkRCaTVkWGVRN2NsS3pONzl0YWdPLy9OZ0NEcmErNld6a3VpUTFMSS9oQTh4TmlFYk00MS9CZUNQeE8zU2w0cmVrQnhuNTIwNW9PQVp6dzVqeTZ5dDlvbXZPdVpCb0V0ckZZdkpFQk9YeTlxWUdienJBSXJvZjQ4eHh4ZHNhSjF4OXk0SVpHOHhsR3ZlUGkyNmY4NWZkd2hLTWJ5Unh0OS85ZFg1ZXNrNmR3Rk9aV2xDWnVxeVQ3czBKUnQxOWlQWEE4aHhYQkcwOXVaNWI=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -45,8 +45,10 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - VuforiaMars_Images
+    - VuforiaMars_VuMark
     dataSetsToActivate:
     - VuforiaMars_Images
+    - VuforiaMars_VuMark
   videoBackground:
     clippingMode: 0
     numDivisions: 2

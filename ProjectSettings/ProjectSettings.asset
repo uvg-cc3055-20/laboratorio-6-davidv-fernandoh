@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: d98a630c92ee29f429912e8426a550eb
+  productGUID: 939a2505455e3d8409b890efce8ff91d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 06-lab-augmented-reality
+  productName: laboratorio-6-davidv-fernandoh
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -157,7 +157,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.DF.ARTest
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -245,7 +246,7 @@ PlayerSettings:
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
-  AndroidTVCompatibility: 1
+  AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
@@ -259,21 +260,16 @@ PlayerSettings:
   m_BuildTargetIcons: []
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
-  m_BuildTargetVRSettings:
-  - m_BuildTarget: Standalone
-    m_Enabled: 1
-    m_Devices:
-    - Oculus
-    - OpenVR
+  m_BuildTargetVRSettings: []
+<<<<<<< HEAD
   m_BuildTargetEnableVuforiaSettings:
+  - m_BuildTarget: Android
+    m_Enabled: 1
   - m_BuildTarget: Standalone
     m_Enabled: 1
-  - m_BuildTarget: Android
-    m_Enabled: 0
-  - m_BuildTarget: iOS
-    m_Enabled: 0
-  - m_BuildTarget: Metro
-    m_Enabled: 0
+=======
+  m_BuildTargetEnableVuforiaSettings: []
+>>>>>>> parent of d5811a2... Robin
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
@@ -571,14 +567,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 06-lab-augmented-reality
+  metroPackageName: laboratorio-6-davidv-fernandoh
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 06-lab-augmented-reality
+  metroApplicationDescription: laboratorio-6-davidv-fernandoh
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
