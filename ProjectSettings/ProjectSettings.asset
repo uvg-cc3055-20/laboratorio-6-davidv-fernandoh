@@ -261,11 +261,15 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
+<<<<<<< HEAD
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
   - m_BuildTarget: Standalone
     m_Enabled: 1
+=======
+  m_BuildTargetEnableVuforiaSettings: []
+>>>>>>> parent of d5811a2... Robin
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
