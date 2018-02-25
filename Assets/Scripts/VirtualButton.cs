@@ -24,9 +24,9 @@ public class VirtualButton : MonoBehaviour, IVirtualButtonEventHandler
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        Debug.Log("d");
+
         birdAnim.SetTrigger("sing");
-    }
+    }   
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
