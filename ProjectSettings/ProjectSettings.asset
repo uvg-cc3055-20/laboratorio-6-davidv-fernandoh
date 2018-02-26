@@ -4,14 +4,18 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
+<<<<<<< HEAD
   productGUID: b3f5945810fa174418bf77b7d8cc0dc4
+=======
+  productGUID: e6e1e0278ab55484193b499ce667370e
+>>>>>>> aea1021b7e19d94fc008fd1482649ca340b47331
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: DF
   productName: laboratorio-6-davidv-fernandoh
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -157,7 +161,12 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+<<<<<<< HEAD
   applicationIdentifier: {}
+=======
+  applicationIdentifier:
+    Android: com.DF.ArBirds
+>>>>>>> aea1021b7e19d94fc008fd1482649ca340b47331
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -260,7 +269,15 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
+<<<<<<< HEAD
   m_BuildTargetEnableVuforiaSettings: []
+=======
+  m_BuildTargetEnableVuforiaSettings:
+  - m_BuildTarget: Android
+    m_Enabled: 1
+  - m_BuildTarget: Standalone
+    m_Enabled: 1
+>>>>>>> aea1021b7e19d94fc008fd1482649ca340b47331
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
